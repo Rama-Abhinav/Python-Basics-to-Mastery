@@ -1,0 +1,12 @@
+📝 Problem:
+Write a Python program that asks the user for their date of birth in the format YYYY-MM-DD and then:
+
+    Calculates their current age in years.
+
+    Displays the day of the week they were born.
+
+Example run:
+
+    Enter your date of birth (YYYY-MM-DD): 2007-05-15
+    You are 18 years old.
+    You were born on a Tuesday.

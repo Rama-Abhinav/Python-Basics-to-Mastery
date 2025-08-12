@@ -1,0 +1,17 @@
+Problem Statement — “Animal Talk” 🐾
+
+    You’re designing a simple animal simulator.
+
+    All animals can speak, but each species speaks differently.
+
+    You need to create a base class Animal with a method speak().
+
+    Create three different animal classes (Dog, Cat, and Parrot) that inherit from Animal and override speak() with their own sounds.
+
+    Write a function animal_sounds(animals_list) that:
+
+    Accepts a list of animals (mixed types: dogs, cats, parrots…)
+
+    Loops through each animal and calls speak()
+
+    Show polymorphism in action: the same speak() method call should produce different results depending on the object’s class.
