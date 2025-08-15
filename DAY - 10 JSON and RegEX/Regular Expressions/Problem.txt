@@ -1,0 +1,26 @@
+Problem: Extract valid email addresses from a list of strings
+
+You’re given the following Python list:
+    data = [
+        "Contact us at support@example.com",
+        "Send mail to info@my-site.org or sales@my-site.org",
+        "This is not an email: test@.com",
+        "admin@company123.net is the admin email",
+        "Reach us at user.name@sub.domain.co.in for support"
+    ]
+
+Your Task
+
+    Write a regex pattern that matches only valid emails in this list.
+
+    Your regex should:
+
+        Start with letters, digits, dots (.), underscores (_), or hyphens (-).
+
+        Contain an @ symbol.
+
+        Have a valid domain name (letters, digits, hyphens, dots).
+
+        End with a valid top-level domain (e.g., .com, .org, .net, .co.in, etc.).
+
+    Print all matching emails as a list.

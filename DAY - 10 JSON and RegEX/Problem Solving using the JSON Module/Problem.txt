@@ -1,0 +1,27 @@
+📝 Problem Statement — “Student Report Generator”
+You are given a JSON string containing information about a few students and their marks in three subjects.
+
+Your task:
+
+    Parse the JSON string into a Python object.
+
+    Calculate each student’s average marks.
+
+    Create a new JSON object containing:
+
+    Student’s name
+
+    Average marks (rounded to 2 decimal places)
+
+    A grade based on the average:
+
+    A → avg ≥ 90
+
+    B → 75 ≤ avg < 90
+
+    C → 50 ≤ avg < 75
+
+    F → avg < 50
+
+    Convert the result back to a JSON string (formatted with indentation) and print it.
+
